@@ -1,4 +1,3 @@
-
 from typing import List
 from urllib.parse import urljoin, urlparse
 

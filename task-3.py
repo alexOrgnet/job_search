@@ -2,6 +2,7 @@
 3. Написать функцию, которая будет добавлять в вашу базу данных только новые вакансии с сайта.
 '''
 
+
 from pymongo import MongoClient, ASCENDING
 
 from scrapers.hh_scraper import search_hh

@@ -3,6 +3,7 @@
 с заработной платой больше введённой суммы.
 '''
 
+
 from pymongo import MongoClient
 from pprint import pprint
 
@@ -19,7 +20,7 @@ def search_by_salary(min_salary):
     return vac_data
 
 
-min_salary = int(input('Укажите минимальную з.п. для поиска вакансий: '))
+min_salary = int(input('Укажите минимальную зарплату для поиска вакансий: '))
 vac_data = search_by_salary(min_salary)
 
 for i in vac_data:
