@@ -4,7 +4,6 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup as bs
 
-
 def search_hh(vacancy: str, max_pages: int) -> List:
     vac_list = []
     page_counter = 0
