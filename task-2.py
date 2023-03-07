@@ -3,10 +3,8 @@
 с заработной платой больше введённой суммы.
 '''
 
-
 from pymongo import MongoClient
 from pprint import pprint
-
 
 def search_by_salary(min_salary):
 

@@ -3,6 +3,7 @@
 и реализовать функцию, записывающую собранные вакансии в созданную БД.
 '''
 
+
 from pymongo import MongoClient
 
 from scrapers.hh_scraper import search_hh
